@@ -18,18 +18,18 @@ import { db } from "../../firebase";
 import { useAccount, useConnect, useSignMessage } from "wagmi";
 import { disconnect } from '@wagmi/core';
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";
-import Web3 from 'web3';
-import Web3Modal from "web3modal";
-const providerOptions = {
+// import Web3 from 'web3';
+// import Web3Modal from "web3modal";
+// const providerOptions = {
 
-}
-if (typeof window !== "undefined") {
-  const web3Modal = new Web3Modal({
-    network: "mainnet",
-    cacheProvider: true, // optional
-    providerOptions // required
-  });
-}
+// }
+// if (typeof window !== "undefined") {
+//   const web3Modal = new Web3Modal({
+//     network: "mainnet",
+//     cacheProvider: true, // optional
+//     providerOptions // required
+//   });
+// }
 
 
 interface SigninType {
